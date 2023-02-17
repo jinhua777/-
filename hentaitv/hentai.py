@@ -6,7 +6,7 @@ from lxml import etree
 class HantaiTV:
     def __init__(self):
         self.host = r"https://hentai.tv"
-        self.proxy = {'http': 'eye.hytto.com:7778'}
+        self.proxy = {'http': 'xxx'}
 
     def search(self, page):
         url = self.host + r"/wp-json/wp/v2/results?taxonomy=none&search=none&term=none&blacklist=&genres=&brands=&sort=1&page=" + page
